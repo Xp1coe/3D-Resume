@@ -1,10 +1,13 @@
+// App.js
+import React from "react";
+import ThreeDScene from "./components/ThreeDScene";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <div classname="text-center text-3xl">Hii</div>
-    </>
+    <div className="h-screen w-screen flex justify-center items-center">
+      <ThreeDScene />
+    </div>
   );
 }
 
